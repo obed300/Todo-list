@@ -1,49 +1,48 @@
-.main-wrapper{
-    
-    
-    box-shadow: 4px 4px 4px lightgray;
+.main-wrapper {
+  box-shadow: 4px 4px 4px lightgray;
 }
-.title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 35px;
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
 }
-.fa-refresh{
-    margin-right: 10px;
+
+.fa-refresh {
+  margin-right: 10px;
 }
 
 input {
-    border-style: hidden;
-    height: 35px;
-    width: 99%;
-
-  }
-  
-.clear{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(248, 244, 240);
-    margin-top: -10px;
-    margin-bottom: -9px;
-    height: 35px;
-    border: none;
-    
-}
-.clear button{
-    border: none;
-    background-color: rgb(248, 244, 240);
+  border-style: hidden;
+  height: 35px;
+  width: 99%;
 }
 
-
-.mylist{
-    display: flex;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    border-bottom: 1px solid;
-    height: 35px;
+.clear {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248, 244, 240);
+  margin-top: -10px;
+  margin-bottom: -9px;
+  height: 35px;
+  border: none;
 }
-.describe{
-    width: 95%;
-    margin-bottom: 3px;
+
+.clear button {
+  border: none;
+  background-color: rgb(248, 244, 240);
+}
+
+.mylist {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  height: 35px;
+}
+
+.describe {
+  width: 95%;
+  margin-bottom: 3px;
 }

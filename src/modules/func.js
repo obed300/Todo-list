@@ -31,7 +31,12 @@ export default class UI {
     const check = document.createElement('input');
     check.type = 'checkbox';
     check.id = 'checkbox';
+    check.title = 'Select this option to enable a feature';
     list.append(check);
+
+    const label = document.createElement('label');
+    label.setAttribute('for', check.id);
+    list.appendChild(label);
 
     const description = document.createElement('p');
     description.className = 'description';

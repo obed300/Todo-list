@@ -30,7 +30,7 @@ export default class UI {
     list.classList.add('mylist');
     const check = document.createElement('input');
     check.type = 'checkbox';
-    check.id = 'checkbox';
+    // check.id = 'checkbox';
     check.title = 'Select this option to enable a feature';
     list.append(check);
 

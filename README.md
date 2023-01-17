@@ -1,3 +1,16 @@
+ 📗 Table of Contents
+
+- [Todo-list](#todo-list)
+  - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Install](#install)
+    - [Run tests](#run-tests)
+  - [Authors](#authors)
+  - [🤝 Contributing](#-contributing)
+  - [Show your support](#show-your-support)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
 # Todo-list
 In this project, I will build a simple HTML list of To Do tasks which will be built using webpack and served by a webpack dev server.
 
@@ -43,7 +56,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to contact me @ tarekegngirma21@gmail.com
+Feel free to contact me @ obamfo@st.ug.edu.gh
 
 ## Show your support
 

@@ -615,5 +615,6 @@
   "bugs": {
     "url": "https://github.com/obed300/Todo-list/issues"
   },
-  "homepage": "https://github.com/obed300/Todo-list#readme"
+  "homepage": "https://github.com/obed300/Todo-list#readme",
+  "main": ".eslintrc.js"
 }

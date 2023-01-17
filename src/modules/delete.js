@@ -1,4 +1,4 @@
-import UI from './func.js';
+// import UI from './func.js';
 
 const removeFor = (index) => {
   let tasks = JSON.parse(localStorage.getItem('items'));

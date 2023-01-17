@@ -36,8 +36,6 @@ export default class UI {
     const description = document.createElement('p');
     description.className = 'description';
     description.textContent = `${element.description}`;
-    // description.contentEditable = 'true';
-
     const dots = document.createElement('a');
     dots.className = 'uil uil-ellipsis-v';
     dots.id = 'gg';
@@ -50,7 +48,7 @@ export default class UI {
     dots.append(deleteIcon);
 
     list.onclick = () => {
-      edit(element);
+      edit();
       deleteIcon.style.visibility = 'visible';
       dots.style.visibility = 'hidden';
       list.style.backgroundColor = 'yellow';

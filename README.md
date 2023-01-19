@@ -2,6 +2,7 @@
 
 - [Todo-list](#todo-list)
   - [Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Install](#install)
@@ -19,6 +20,13 @@ In this project, I will build a simple HTML list of To Do tasks which will be bu
 
 - HTML & CSS
 - JavaScript
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://obed300.github.io/Todo-list/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.

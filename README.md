@@ -23,8 +23,6 @@ In this project, I will build a simple HTML list of To Do tasks which will be bu
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://obed300.github.io/Todo-list/)
 
 ## Getting Started

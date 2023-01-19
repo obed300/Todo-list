@@ -13,10 +13,36 @@
   margin-right: 10px;
 }
 
-input {
+.add input {
   border-style: hidden;
   height: 35px;
   width: 99%;
+}
+
+.mylist {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  width: auto;
+}
+
+#checkbox {
+  width: 20px;
+}
+
+.description {
+  display: flex;
+  width: 90%;
+}
+
+[contenteditable] {
+  outline: 0 solid transparent;
+}
+
+.uil-ellipsis-v {
+  align-self: center;
 }
 
 .clear {
@@ -25,7 +51,7 @@ input {
   background-color: rgb(248, 244, 240);
   margin-top: -10px;
   margin-bottom: -9px;
-  height: 35px;
+  height: 55px;
   border: none;
 }
 
@@ -34,15 +60,12 @@ input {
   background-color: rgb(248, 244, 240);
 }
 
-.mylist {
-  display: flex;
-  margin-bottom: 10px;
-  justify-content: space-between;
-  border-bottom: 1px solid;
-  height: 35px;
+.fa-trash-o {
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  margin-right: 10px;
 }
-
-.describe {
-  width: 95%;
-  margin-bottom: 3px;
+.description-text.line-through { 
+    text-decoration: line-through; 
 }

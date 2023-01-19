@@ -192,6 +192,7 @@
     "get-stream": "^5.2.0",
     "get-symbol-description": "^1.0.0",
     "get-uri": "^3.0.2",
+    "gh-pages": "^4.0.0",
     "glob": "^7.2.3",
     "glob-parent": "^5.1.2",
     "global-dirs": "^3.0.1",
@@ -607,7 +608,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
     "build": "webpack",
     "lint": "eslint . --fix"

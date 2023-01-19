@@ -1,58 +1,28 @@
 import './style.css';
+import UI from './modules/func.js';
+import List from './modules/class.js';
 
-class UI {
-  static displaystructure() {
-    const tasks = [
-      {
-        description: 'sfdgdgs',
-        completed: false,
-        index: 1,
-      },
-      {
-        description: 'hfthyh',
-        completed: false,
-        index: 1,
-      },
-    ];
-    tasks.forEach((element) => UI.addlist(element));
-  }
+const add = document.querySelector('.add');
+const listinput = document.querySelector('.list-input');
+const clearAll = document.querySelector('.clear-all');
 
-  static addlist(element) {
-    const listcontainer = document.querySelector('.list-container');
+add.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const setindex = (UI.getlist()).length + 1;
+  const input = listinput.value;
+  const mylist = new List(input, false, setindex);
+  UI.listlibrary(mylist);
+  UI.addtodo(mylist);
+});
 
-    const list = document.createElement('div');
-    list.classList.add('mylist');
-    list.innerHTML = `
-    <i class="fa fa-square-o"></i>
-    <div class="describe">${element.description}</div>
-    <i class="uil uil-ellipsis-v"></i>
-    `;
-    listcontainer.appendChild(list);
-  }
-}
-document.addEventListener('DOMContentLoaded', UI.displaystructure);
+document.addEventListener('DOMContentLoaded', () => {
+  UI.displaylist();
+  UI.getlist();
+});
 
-// const tasks = [
-//   {
-//     description: 'sfdgdgs',
-//     completed: false,
-//     index: 1,
-//   },
-//   {
-//     description: 'hfthyh',
-//     completed: false,
-//     index: 1,
-//   },
-// ];
-
-// const listcontainer = document.querySelector('.list-container');
-// tasks.forEach((element) => {
-//   const list = document.createElement('div');
-//   list.classList.add('mylist');
-//   list.innerHTML = `
-//     <i class="fa fa-square-o"></i>
-//     <div class="describe">${element.description}</div>
-//     <i class="uil uil-ellipsis-v"></i>
-//     `;
-//   listcontainer.appendChild(list);
-// });
+clearAll.onclick = () => {
+  let tasks = JSON.parse(localStorage.getItem('items'));
+  tasks = tasks.filter((item) => item.completed !== true);
+  localStorage.setItem('items', JSON.stringify(tasks));
+  window.location.reload();
+};

@@ -7,6 +7,7 @@
     - [Install](#install)
     - [Run tests](#run-tests)
   - [Authors](#authors)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing](#-contributing)
   - [Show your support](#show-your-support)
   - [Acknowledgments](#acknowledgments)
@@ -51,6 +52,10 @@ To get a local copy up and running follow these simple example steps.
 - GitHub [@obed300](https://github.com/obed300)
 - Twitter: [@bamfo_obed](https://twitter.com/OBED BAMFO)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Improve User Interface]**
+- [ ] **[User reordering the list by dragging ]**
 
 ## 🤝 Contributing
 

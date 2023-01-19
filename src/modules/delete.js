@@ -1,5 +1,3 @@
-// import UI from './func.js';
-
 const removeFor = (index) => {
   let tasks = JSON.parse(localStorage.getItem('items'));
   tasks = tasks.filter((items) => items.index !== Number(index));

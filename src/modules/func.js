@@ -31,8 +31,6 @@ export default class UI {
     list.classList.add('mylist');
     const check = document.createElement('input');
     check.type = 'checkbox';
-    // check.checked = true;
-    // check.id = 'checkbox';
     check.title = 'Select this option to enable a feature';
     list.append(check);
 
@@ -54,7 +52,6 @@ export default class UI {
       } else {
         description.classList.remove('line-through');
       }
-      // OR description.classList.toggle('line-through')
       isCompleted(element.index);
     };
 

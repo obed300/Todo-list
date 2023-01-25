@@ -7,6 +7,8 @@
   justify-content: space-between;
   align-items: center;
   height: 35px;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .fa-refresh {
@@ -17,6 +19,7 @@
   border-style: hidden;
   height: 35px;
   width: 99%;
+  font-size: large;
 }
 
 .mylist {
@@ -35,6 +38,7 @@
 .description {
   display: flex;
   width: 90%;
+  font-size: larger;
 }
 
 [contenteditable] {
@@ -58,6 +62,7 @@
 .clear button {
   border: none;
   background-color: rgb(248, 244, 240);
+  font-size: large;
 }
 
 .fa-trash-o {
